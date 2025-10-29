@@ -249,18 +249,17 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                         packet = json.loads(packet)
                         OwNer_UiD , CHaT_CoDe , SQuAD_CoDe = await GeTSQDaTa(packet)
 
-                        JoinCHaT = await AutH_Chat(3 , OwNer_UiD , CHaT_CoDe, key,iv)
-                        await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , JoinCHaT)
+                        JoinCHaT = await AutH_Chat(3 , OwNer_UiD , CHaT_CoDe, key, iv)
+await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , JoinCHaT)
 
+message = f"[B][C]{get_random_color()}\n" \
+           f" Welcome to Emote Bot!\n\n" \
+           f" Bot Owner: Mr Rafi\n" \
+           f" Version: OB51\n" \
+           f" Join Telegram: @cyberarchbd"
 
-                        message = f"[B][C]{get_random_color()}\n" \
-                                   f" Welcome to Emote Bot!\n\n" \
-                                   f" Bot Owner: Mr Rafi\n" \
-                                   f" Version: OB51\n" \
-                                   f" Join Telegram: @cyberarchbd"
-                        P = await SEndMsG(0 , message , OwNer_UiD , OwNer_UiD , key , iv)
-                            await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , P)
-
+P = await SEndMsG(0 , message , OwNer_UiD , OwNer_UiD , key , iv)
+await SEndPacKeT(whisper_writer , online_writer , 'ChaT' , P)
                     except:
                         if data2.hex().startswith('0500') and len(data2.hex()) > 1000:
                             try:
