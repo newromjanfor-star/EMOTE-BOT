@@ -560,8 +560,8 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                             f" Likes Added: {added}\n"
                                             f" Likes Now: {after}\n"
                                             f" Success Rate: {success_rate}\n\n"
-                                            f" Developer: Mr Rafi\n"
-                                            f" Telegram: @Anonymous_is_back_action"
+                                            f" Developer: AX ROMJAN"
+                                            f" Telegram: @axemoteserver"
                                         )
                                     else:
                                         msg = f"[FF0000]❌ Failed to send likes. Try again later.[/]"
@@ -585,7 +585,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 f"[00FF00]@a <uid1> <uid2> <emote_id> → Send emote to players\n"
                                 f"[00FF00]hi / hello / salam / fen[/] → Greet command\n\n"
                                 f"{get_random_color()} Bot Owner: Mr Rafi\n"
-                                f" Telegram: @cyberarchbd\n"
+                                f" Telegram: @axemoteserver"
                                 f" Version: OB51"
                             )
                             P = await SEndMsG(response.Data.chat_type, help_text, uid, chat_id, key, iv)
@@ -629,7 +629,7 @@ async def process_api_queue():
 async def MaiiiinE():
     global key, iv, region  # <-- অবশ্যই ফাংশনের শুরুতে লিখো
 
-    Uid , Pw = '4207496577','606840821F88420DC9AA5697481988C34714DB1495534DA63715821EF504CAAE'
+    Uid , Pw = '4288118002','F6974A8E667BB3FBB854DD87F8B055FB58FC91E6785ECF0B6932B355CE361746'
     
     open_id , access_token = await GeNeRaTeAccEss(Uid , Pw)
     if not open_id or not access_token: 
