@@ -521,7 +521,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         if inPuTMsG in ("hi", "hello", "fen", "salam"):
                             uid = response.Data.uid
                             chat_id = response.Data.Chat_ID
-                            message = 'Hello, Join\nTelegram : @cyberarchbd'
+                            message = 'Hello, Join\nTelegram : @axemoteserver'
                             P = await SEndMsG(response.Data.chat_type, message, uid, chat_id, key, iv)
                             await SEndPacKeT(whisper_writer, online_writer, 'ChaT', P)
                         # ---------- LIKE COMMAND ----------
@@ -560,7 +560,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                             f" Likes Added: {added}\n"
                                             f" Likes Now: {after}\n"
                                             f" Success Rate: {success_rate}\n\n"
-                                            f" Developer: AX ROMJAN"
+                                            f" Developer: AX Romjan"
                                             f" Telegram: @axemoteserver"
                                         )
                                     else:
@@ -584,7 +584,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 f"[00FF00]@like <uid> → Send 100 Like\n"
                                 f"[00FF00]@a <uid1> <uid2> <emote_id> → Send emote to players\n"
                                 f"[00FF00]hi / hello / salam / fen[/] → Greet command\n\n"
-                                f"{get_random_color()} Bot Owner: Mr Rafi\n"
+                                f"{get_random_color()} Bot Owner: Ax Romjan\n"
                                 f" Telegram: @axemoteserver"
                                 f" Version: OB51"
                             )
@@ -629,7 +629,7 @@ async def process_api_queue():
 async def MaiiiinE():
     global key, iv, region  # <-- অবশ্যই ফাংশনের শুরুতে লিখো
 
-    Uid , Pw = '4288697958','7513B085511609B7418B752E2448E034AD6BE696240A4BD3839C4062D1C4FD63'
+    Uid , Pw = '4328413972','1E20460D18739641C60E07C8C4ED01601BD0F615BC4BEFB53912B37F0734CFD6'
     
     open_id , access_token = await GeNeRaTeAccEss(Uid , Pw)
     if not open_id or not access_token: 
